@@ -237,6 +237,14 @@ const UICtrl = (function (){
             })
 
             document.querySelector(UISelectors.itemList).innerHTML = html;
+
+            if(ItemCtrl.getItems().length > 0){
+
+                document.querySelector(UISelectors.clearBtn).style.display = 'inline';
+
+            } else {
+                document.querySelector(UISelectors.clearBtn).style.display = 'none';   
+            }
         },
 
         //Makes UISelectors public.
