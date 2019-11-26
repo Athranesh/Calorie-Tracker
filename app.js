@@ -370,6 +370,8 @@ const UICtrl = (function (){
             ItemCtrl.clearAll();
             this.populateItemList(ItemCtrl.getItems());
             this.setTotalCalories();
+            this.clearInput();
+            this.clearEditState();
         }
     }
 })()
