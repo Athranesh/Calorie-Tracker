@@ -62,13 +62,6 @@ const StorageCtrl = (function(){
 
 const ItemCtrl = (function (){
 
-    //Item Constructor
-
-    const Item = function( name, calories){
-        this.name = name;
-        this.calories = calories;
-    }
-
     //Data Structure (State)
 
     const state = {
