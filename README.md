@@ -5,4 +5,6 @@ The app has state management and CRUD functionality and stores data in local sto
 
 As the app is made using only vanilla JS, I decided against using any calorie fetching APIs, as it would be better done using React.
 
+Live version: https://athranesh.github.io/Calorie-Tracker/
+
 Version 1.0.0
